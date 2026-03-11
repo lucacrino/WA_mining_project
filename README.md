@@ -37,9 +37,6 @@ flagging, and commodity-level performance benchmarking. Essential for operations
 and corporate strategists.
 
 
-## 🗂️ Data Model
-
-
 ## 📂 Repository Structure
 
 
