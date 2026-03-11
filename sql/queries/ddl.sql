@@ -1,7 +1,7 @@
 CREATE TABLE IF NOT EXISTS public.abandoned_mines
 (
-    site_code character varying,
-    wabmines_n character varying,
+    site_code varchar,
+    wabmines_n varchar,
     feature_gr text,
     feature_ty text,
     site_type text,
@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS public.abandoned_mines
     fences text,
     signs text,
     mf_shape text,
-    revegetati text",
+    revegetati text,
     ug_timbers text,
     ug_access text,
     headframe text,
