@@ -282,3 +282,74 @@ CREATE TABLE IF NOT EXISTS public.resource_estimates
     project_url text,
     CONSTRAINT resource_estimates_by_project_pkey PRIMARY KEY (object_id, project_code)
 )
+
+
+
+
+CREATE TABLE IF NOT EXISTS public.site_lithology
+(
+    site_code varchar,
+    short_title text,
+    lithology text,
+    rock_type text,
+    strat_name text,
+    age text
+)
+
+
+
+
+CREATE TABLE IF NOT EXISTS public.site_mineralization
+(
+    site_code varchar,
+    short_title text,
+    mineralization_style text,
+    secondary_mineralization_style text,
+    ore_minerals text,
+    gangue_minerals text,
+    alteration text,
+    expression text,
+    ore_controls text,
+    mineralization_type text,
+    mineralization_texture text,
+    vein_style text,
+    structural_modifiers text,
+    shape text,
+    relation_to_host text,
+    metamorphic_grade text,
+    mineralization_age text,
+    age_method text
+)
+
+
+
+
+CREATE TABLE IF NOT EXISTS public.site_notes
+(
+    site_code varchar,
+    note_date date,
+    note text
+)
+
+
+
+
+CREATE TABLE IF NOT EXISTS public.site_operators
+(
+    project_code varchar,
+    project_name text,
+    site_code varchar,
+    site_name text,
+    site_type text,
+    site_subt text,
+    site_stage text,
+    operator_code varchar,
+    op_name text,
+    op_start date,
+    op_end date,
+    op_address text,
+    op_postc text,
+    op_phone text,
+    op_fax text,
+    op_email text
+)
