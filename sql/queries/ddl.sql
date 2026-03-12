@@ -123,7 +123,7 @@ CREATE TABLE IF NOT EXISTS public.major_resource_projects
     district_name text,
     tectonic_unit text,
     CONSTRAINT major_resource_projects_pkey PRIMARY KEY (site_code)
-)
+);
 
 
 
@@ -163,7 +163,7 @@ CREATE TABLE IF NOT EXISTS public.operating_mines
     district_name text,
     tectonic_unit text,
     CONSTRAINT operating_mines_pkey PRIMARY KEY (site_code)
-)
+);
 
 
 
@@ -179,7 +179,7 @@ CREATE TABLE IF NOT EXISTS public.project_lookup
     limo_flag text,
     title text,
     CONSTRAINT projects_pkey PRIMARY KEY (project_code)
-)
+);
 
 
 
@@ -196,7 +196,7 @@ CREATE TABLE IF NOT EXISTS public.projects_owners
     entity_type text,
     entity_id_dmp integer,
     CONSTRAINT projects_owners_pkey PRIMARY KEY (owner_code, project_code)
-)
+);
 
 
 
@@ -242,7 +242,7 @@ CREATE TABLE IF NOT EXISTS public.resource_estimates
     alternative_contained_commodity_unit text,
     resource_estimate_primary_mineralisation_style text,
     resource_estimate_secondary_mineralisation_style text
-)
+);
 
 
 
@@ -281,7 +281,7 @@ CREATE TABLE IF NOT EXISTS public.resource_estimates
     point_unit text,
     project_url text,
     CONSTRAINT resource_estimates_by_project_pkey PRIMARY KEY (object_id, project_code)
-)
+);
 
 
 
@@ -294,7 +294,7 @@ CREATE TABLE IF NOT EXISTS public.site_lithology
     rock_type text,
     strat_name text,
     age text
-)
+);
 
 
 
@@ -319,7 +319,7 @@ CREATE TABLE IF NOT EXISTS public.site_mineralization
     metamorphic_grade text,
     mineralization_age text,
     age_method text
-)
+);
 
 
 
@@ -329,7 +329,7 @@ CREATE TABLE IF NOT EXISTS public.site_notes
     site_code varchar,
     note_date date,
     note text
-)
+);
 
 
 
@@ -352,7 +352,7 @@ CREATE TABLE IF NOT EXISTS public.site_operators
     op_phone text,
     op_fax text,
     op_email text
-)
+);
 
 
 
@@ -375,7 +375,7 @@ CREATE TABLE IF NOT EXISTS public.site_production
     grade_unit text,
     contained_metal numeric,
     contained_metal_unit text
-)
+);
 
 
 
@@ -414,4 +414,4 @@ CREATE TABLE IF NOT EXISTS public.site_project
     eil_flag text,
     eis_flag text,
     gbrm_flag text
-)
+);
