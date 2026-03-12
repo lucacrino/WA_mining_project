@@ -241,5 +241,44 @@ CREATE TABLE IF NOT EXISTS public.resource_estimates
     alternative_contained_commodity numeric,
     alternative_contained_commodity_unit text,
     resource_estimate_primary_mineralisation_style text,
-    resource_estimate_secondary_mineralisation_style text"
+    resource_estimate_secondary_mineralisation_style text
+)
+
+
+
+
+    CREATE TABLE IF NOT EXISTS public.resource_estimates_by_project
+(
+    object_id integer,
+    project_name text,
+    project_short text,
+    project_code varchar,
+    pri_p_com text,
+    loc_site text,
+    latitude numeric,
+    longitude numeric,
+    tect_unit text,
+    est_com text,
+    est_com_ab text,
+    est_com_p text,
+    res_qty numeric,
+    res_qty_u text,
+    res_qty_g numeric,
+    res_qty_gu text,
+    res_con numeric,
+    res_con_u text,
+    ares_con numeric,
+    ares_con_u text,
+    rv_qty numeric,
+    rv_qty_u text,
+    rv_qty_g numeric,
+    rv_qty_gu text,
+    rv_con numeric,
+    rv_con_u text,
+    arv_con numeric,
+    arv_con_u text,
+    point_size numeric,
+    point_unit text,
+    project_url text,
+    CONSTRAINT resource_estimates_by_project_pkey PRIMARY KEY (object_id, project_code)
 )
