@@ -14,7 +14,7 @@ Starting from the visualization, stakeholders are able to target the following q
   
    **1. What is the state of the WA mining asset base?**
  
-   **2. Who are the main players in this market?**
+   **2. How expensive are the idle sites?**
       
    **3. How are the sites distributed across development regions and commodity groups?**
       
