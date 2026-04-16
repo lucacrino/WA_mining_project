@@ -14,7 +14,7 @@ Each dashboard targets a distinct question:
   
    **1. What is the state of the WA mining asset base?**
  
-   **2. Where are the highest-value resource opportunities?**
+   **2. Who are the main players in this market?**
       
    **3. How are operating projects performing?**
       
@@ -28,12 +28,6 @@ Each dashboard targets a distinct question:
 regulators and policy-makers who need to track activity levels, identify idle assets and monitor new project
 proposals flowing through the system.
 
-- Deep-diving into MINEDEX resource estimates, revealing where the highest-grade and largest undeveloped
-deposits sit, how resource confidence levels compare across commodities, and which regions offer the best
-exploration upside. Built for investors, geologists and strategic planners.
-
-- Tracking actual production output across active WA mines and commodity-level performance benchmarking. Essential for operations managers, royalty forecasters
-and corporate strategists.
 
 
 ## 📂 Repository Structure
